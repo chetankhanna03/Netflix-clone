@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px;
+
+}
+nav img{
+    width: 150px;
+    z-index: 10;
+}
+#eng{
+    position: relative;
+    border-color: white;
+    background-color: rgba(25,25,25,0.8);
+    border-width: 0.1px;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px 25px;
+    z-index: 10;
+}
+#si{
+    border-width: 0;
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 5px 25px;
+    background-color: red;
+    color: white;
+}
+.text{
+    height: calc(100% - 81px);
+    color: white;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Martel Sans',sans-serif;
+    gap: 23px;
+}
+.s1{
+    font-size: 50px;
+    font-weight: 999;
+}
+.s2{
+    font-size: 25px;
+}
+.s3{
+    font-size: 20px;
+}
+.em input{
+    background-color: rgba(25,25,25,0.8);
+    color: white;
+    border-color: white;
+    border-width: 0.1;
+    font-size: 17px;
+    padding: 15px 125px 15px 15px;
+    border-radius: 7px;
+    
+}
+.em button{
+    color: white;
+    background-color: red;
+    padding: 13px 20px 15px 20px;
+    font-size: 22px;
+    border-radius: 7px;
+    border-width: 0;
+}
+.sep{
+    position: relative;
+    background-color: rgb(45, 45, 45);
+    height: 8px;
+    width: 100%;
+    z-index: 20;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color: white;
+    max-width: 73vw;
+}
+.sec1img{
+    position: relative;
+}
+.sec1img img{
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+}
+.sec1 div{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.sec1 span{
+    font-size: 25px;
+}
+.sec1img video{
+    position: absolute;
+    width: 550px;
+    right: 70px;
+    top: 110px;
+}
+.sec3 video{
+    width: 450px;
+    right: 130px;
+    top: 45px;
+}
+.head{
+    color: white;
+    font-size: 50px;
+    font-weight: 999;
+    display: flex;
+    place-content: center;
+    margin-bottom: 30px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 75px 150px;
+}
+.faqbox{
+    font-size: 25px;
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    padding: 27px;
+    color: white;
+    max-width:805vw;
+    margin: 8px auto;
+    justify-content: space-between;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+.end .em{
+    margin-top: 15px;
+}
+.endsec{
+    max-width: 80vw;
+    margin: 50px auto;
+    margin-bottom: 25px;
+    color: rgb(174, 174, 174);
+}
+.no{
+    text-decoration: underline;
+}
+.endsec span{
+    color: rgb(174, 174, 174);
+    margin-bottom: 150px;
+}
+.last{
+    display: flex;
+    max-width: 90vw;
+    margin: auto;
+}
+.last1 div{
+    color: rgb(174, 174, 174);
+    margin: 15px 80px;
+    text-decoration: underline;
+}
+.last2 div{
+    color: rgb(174, 174, 174);
+    margin: 15px 80px;
+    text-decoration: underline;
+}
+.last3 div{
+    color: rgb(174, 174, 174);
+    margin: 15px 80px;
+    text-decoration: underline;
+}
+.last4 div{
+    color: rgb(174, 174, 174);
+    margin: 15px 80px;
+    text-decoration: underline;
+}
+.lastbut{
+    margin: 15px 145px;
+}
+.lasttext{
+    color: white;
+    margin: 15px 145px;
+}
